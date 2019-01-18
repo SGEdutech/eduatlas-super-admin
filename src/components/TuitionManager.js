@@ -27,7 +27,7 @@ class TuitionManager extends Component {
 				<Table tuitions={this.props.tuitions} />
 				<Pagination />
 			</>
-		)
+		);
 	}
 }
 

@@ -11,12 +11,12 @@ const StyledTh = styled.th`
 function TableHeader() {
 	return (
 		<tr>
-			<th>#</th>
-			<th>Name</th>
-			<th>City</th>
-			<th>Phone Number</th>
-			<th>Email</th>
-			<th>Actions</th>
+			<StyledTh>#</StyledTh>
+			<StyledTh>Name</StyledTh>
+			<StyledTh>City</StyledTh>
+			<StyledTh>Phone Number</StyledTh>
+			<StyledTh>Email</StyledTh>
+			<StyledTh>Actions</StyledTh>
 		</tr>
 	);
 }
